@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title>Water supply</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="css.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+
+<div id="header-wrapper">
+  <div id="header" class="container">
+    <div id="logo">
+		<a href="home.html"><i class="fa fa-home" style="font-size:48px"></i></a>
+      
+    </div>
+  </div>
+</div>
+
+
+<div id="header-featured"></div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2500); 
+}
+</script>
+</div>
+
+<div id="wrapper">
+   <div id="extra" class="container">
+       <h2>about us</h2> 
+       <p>we aim to solve the following issues efficiently:
+		Improve the access to water for the citizens of India
+		Connecting supply and demand efficiently
+		Regulate the price of water across geographies
+		Reduce fossil fuel consumption of tankers during supply and reduce Carbon emissions
+		Improve the utilization of tankers and supplier’s business
+		Reduce delivery time
+		Reduce over-extraction of groundwater from the same borewell
+		Our goal is to positively impact lives of billions across the world.<br>
+		We have the facility to supply drinking water through Tanker Lorries and supply is daily made to area where drinking water scarcity is experiencing </p>
+
+       <a class="button">Book Now</a>
+   </div>
+
+   
+</div>
+
+<div id="page-wrapper">
+	<div id="extra2" class="contain">
+		<div class="title">
+			<h2>Services We Provide</h2>
+		</div>
+		<div class="tbox1">
+			<div class="padding-bottom">
+				<h2>Water Tanker</h2>
+				<img src="images/HOWO Water Tank Truck.jpg" alt="" />
+			</div>
+		</div>
+		<div class="tbox2">
+			<div class="padding-bottom">
+				<h2>RO Water Can</h2>
+				<img src="images/Catching the Drips.jpg" alt="" />
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
